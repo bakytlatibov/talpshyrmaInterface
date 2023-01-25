@@ -4,4 +4,9 @@ public class Pie implements Baked{
         System.out.println("orange pie");
 
     }
+
+    @Override
+    public void price() {
+        System.out.println("3$");
+    }
 }

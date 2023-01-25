@@ -4,4 +4,10 @@ public class Bread implements Baked{
         System.out.println("meatloaf");
 
     }
+
+    @Override
+    public void price() {
+        System.out.println("2$");
+
+    }
 }
